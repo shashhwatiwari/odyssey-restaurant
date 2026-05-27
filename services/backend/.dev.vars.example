@@ -1,0 +1,7 @@
+# Wrangler reads this file for local dev secrets (like a .env for Workers).
+# Copy to .dev.vars — it is gitignored. Never commit real credentials.
+#
+# Get a Neon connection string at https://neon.tech (free tier is sufficient).
+# Format: postgresql://user:password@host.neon.tech/dbname?sslmode=require
+
+DATABASE_URL=postgresql://user:password@host.neon.tech/dbname?sslmode=require

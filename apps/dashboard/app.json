@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Odyssey Dashboard",
+    "slug": "odyssey-dashboard",
+    "version": "1.0.0",
+    "scheme": "odyssey",
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

@@ -1,0 +1,11 @@
+name = "ody-backend"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+
+# No nodejs_compat needed: @neondatabase/serverless in HTTP mode
+# uses fetch(), which is natively available in every Cloudflare Worker.
+
+[vars]
+# Non-secret vars go here. DATABASE_URL is a secret — never put it here.
+# For local dev: create services/backend/.dev.vars (see .dev.vars.example).
+# For production: run `wrangler secret put DATABASE_URL`.

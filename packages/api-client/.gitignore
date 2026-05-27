@@ -1,0 +1,3 @@
+# Orval output — never hand-edit these files.
+# Regenerate with: pnpm gen:contract (from repo root)
+src/generated/
